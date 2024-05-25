@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBF7DF9F2C02578D0053988B /* TitanicSurvivalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF7DF9E2C02578D0053988B /* TitanicSurvivalApp.swift */; };
+		CBF7DFA12C02578D0053988B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF7DFA02C02578D0053988B /* ContentView.swift */; };
+		CBF7DFA32C02578E0053988B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF7DFA22C02578E0053988B /* Assets.xcassets */; };
+		CBF7DFA72C02578E0053988B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF7DFA62C02578E0053988B /* Preview Assets.xcassets */; };
+		CBF7DFB12C02578E0053988B /* TitanicSurvivalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF7DFB02C02578E0053988B /* TitanicSurvivalTests.swift */; };
+		CBF7DFBB2C02578E0053988B /* TitanicSurvivalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF7DFBA2C02578E0053988B /* TitanicSurvivalUITests.swift */; };
+		CBF7DFBD2C02578E0053988B /* TitanicSurvivalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF7DFBC2C02578E0053988B /* TitanicSurvivalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBF7DFAD2C02578E0053988B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBF7DF932C02578D0053988B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF7DF9A2C02578D0053988B;
+			remoteInfo = TitanicSurvival;
+		};
+		CBF7DFB72C02578E0053988B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBF7DF932C02578D0053988B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF7DF9A2C02578D0053988B;
+			remoteInfo = TitanicSurvival;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBF7DF9B2C02578D0053988B /* TitanicSurvival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TitanicSurvival.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF7DF9E2C02578D0053988B /* TitanicSurvivalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitanicSurvivalApp.swift; sourceTree = "<group>"; };
+		CBF7DFA02C02578D0053988B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CBF7DFA22C02578E0053988B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBF7DFA42C02578E0053988B /* TitanicSurvival.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TitanicSurvival.entitlements; sourceTree = "<group>"; };
+		CBF7DFA62C02578E0053988B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CBF7DFAC2C02578E0053988B /* TitanicSurvivalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TitanicSurvivalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF7DFB02C02578E0053988B /* TitanicSurvivalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitanicSurvivalTests.swift; sourceTree = "<group>"; };
+		CBF7DFB62C02578E0053988B /* TitanicSurvivalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TitanicSurvivalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF7DFBA2C02578E0053988B /* TitanicSurvivalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitanicSurvivalUITests.swift; sourceTree = "<group>"; };
+		CBF7DFBC2C02578E0053988B /* TitanicSurvivalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitanicSurvivalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBF7DF982C02578D0053988B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF7DFA92C02578E0053988B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF7DFB32C02578E0053988B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBF7DF922C02578D0053988B = {
+			isa = PBXGroup;
+			children = (
+				CBF7DF9D2C02578D0053988B /* TitanicSurvival */,
+				CBF7DFAF2C02578E0053988B /* TitanicSurvivalTests */,
+				CBF7DFB92C02578E0053988B /* TitanicSurvivalUITests */,
+				CBF7DF9C2C02578D0053988B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBF7DF9C2C02578D0053988B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBF7DF9B2C02578D0053988B /* TitanicSurvival.app */,
+				CBF7DFAC2C02578E0053988B /* TitanicSurvivalTests.xctest */,
+				CBF7DFB62C02578E0053988B /* TitanicSurvivalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBF7DF9D2C02578D0053988B /* TitanicSurvival */ = {
+			isa = PBXGroup;
+			children = (
+				CBF7DF9E2C02578D0053988B /* TitanicSurvivalApp.swift */,
+				CBF7DFA02C02578D0053988B /* ContentView.swift */,
+				CBF7DFA22C02578E0053988B /* Assets.xcassets */,
+				CBF7DFA42C02578E0053988B /* TitanicSurvival.entitlements */,
+				CBF7DFA52C02578E0053988B /* Preview Content */,
+			);
+			path = TitanicSurvival;
+			sourceTree = "<group>";
+		};
+		CBF7DFA52C02578E0053988B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CBF7DFA62C02578E0053988B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CBF7DFAF2C02578E0053988B /* TitanicSurvivalTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBF7DFB02C02578E0053988B /* TitanicSurvivalTests.swift */,
+			);
+			path = TitanicSurvivalTests;
+			sourceTree = "<group>";
+		};
+		CBF7DFB92C02578E0053988B /* TitanicSurvivalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBF7DFBA2C02578E0053988B /* TitanicSurvivalUITests.swift */,
+				CBF7DFBC2C02578E0053988B /* TitanicSurvivalUITestsLaunchTests.swift */,
+			);
+			path = TitanicSurvivalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBF7DF9A2C02578D0053988B /* TitanicSurvival */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF7DFC02C02578E0053988B /* Build configuration list for PBXNativeTarget "TitanicSurvival" */;
+			buildPhases = (
+				CBF7DF972C02578D0053988B /* Sources */,
+				CBF7DF982C02578D0053988B /* Frameworks */,
+				CBF7DF992C02578D0053988B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TitanicSurvival;
+			productName = TitanicSurvival;
+			productReference = CBF7DF9B2C02578D0053988B /* TitanicSurvival.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBF7DFAB2C02578E0053988B /* TitanicSurvivalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF7DFC32C02578E0053988B /* Build configuration list for PBXNativeTarget "TitanicSurvivalTests" */;
+			buildPhases = (
+				CBF7DFA82C02578E0053988B /* Sources */,
+				CBF7DFA92C02578E0053988B /* Frameworks */,
+				CBF7DFAA2C02578E0053988B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBF7DFAE2C02578E0053988B /* PBXTargetDependency */,
+			);
+			name = TitanicSurvivalTests;
+			productName = TitanicSurvivalTests;
+			productReference = CBF7DFAC2C02578E0053988B /* TitanicSurvivalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBF7DFB52C02578E0053988B /* TitanicSurvivalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF7DFC62C02578E0053988B /* Build configuration list for PBXNativeTarget "TitanicSurvivalUITests" */;
+			buildPhases = (
+				CBF7DFB22C02578E0053988B /* Sources */,
+				CBF7DFB32C02578E0053988B /* Frameworks */,
+				CBF7DFB42C02578E0053988B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBF7DFB82C02578E0053988B /* PBXTargetDependency */,
+			);
+			name = TitanicSurvivalUITests;
+			productName = TitanicSurvivalUITests;
+			productReference = CBF7DFB62C02578E0053988B /* TitanicSurvivalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBF7DF932C02578D0053988B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CBF7DF9A2C02578D0053988B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CBF7DFAB2C02578E0053988B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CBF7DF9A2C02578D0053988B;
+					};
+					CBF7DFB52C02578E0053988B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CBF7DF9A2C02578D0053988B;
+					};
+				};
+			};
+			buildConfigurationList = CBF7DF962C02578D0053988B /* Build configuration list for PBXProject "TitanicSurvival" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBF7DF922C02578D0053988B;
+			productRefGroup = CBF7DF9C2C02578D0053988B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBF7DF9A2C02578D0053988B /* TitanicSurvival */,
+				CBF7DFAB2C02578E0053988B /* TitanicSurvivalTests */,
+				CBF7DFB52C02578E0053988B /* TitanicSurvivalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBF7DF992C02578D0053988B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF7DFA72C02578E0053988B /* Preview Assets.xcassets in Resources */,
+				CBF7DFA32C02578E0053988B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF7DFAA2C02578E0053988B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF7DFB42C02578E0053988B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBF7DF972C02578D0053988B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF7DFA12C02578D0053988B /* ContentView.swift in Sources */,
+				CBF7DF9F2C02578D0053988B /* TitanicSurvivalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF7DFA82C02578E0053988B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF7DFB12C02578E0053988B /* TitanicSurvivalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF7DFB22C02578E0053988B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF7DFBB2C02578E0053988B /* TitanicSurvivalUITests.swift in Sources */,
+				CBF7DFBD2C02578E0053988B /* TitanicSurvivalUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBF7DFAE2C02578E0053988B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBF7DF9A2C02578D0053988B /* TitanicSurvival */;
+			targetProxy = CBF7DFAD2C02578E0053988B /* PBXContainerItemProxy */;
+		};
+		CBF7DFB82C02578E0053988B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBF7DF9A2C02578D0053988B /* TitanicSurvival */;
+			targetProxy = CBF7DFB72C02578E0053988B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CBF7DFBE2C02578E0053988B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBF7DFBF2C02578E0053988B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CBF7DFC12C02578E0053988B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TitanicSurvival/TitanicSurvival.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TitanicSurvival/Preview Content\"";
+				DEVELOPMENT_TEAM = 24FFFC2YSK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlieroth.TitanicSurvival;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBF7DFC22C02578E0053988B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TitanicSurvival/TitanicSurvival.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TitanicSurvival/Preview Content\"";
+				DEVELOPMENT_TEAM = 24FFFC2YSK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlieroth.TitanicSurvival;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBF7DFC42C02578E0053988B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24FFFC2YSK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlieroth.TitanicSurvivalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TitanicSurvival.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TitanicSurvival";
+			};
+			name = Debug;
+		};
+		CBF7DFC52C02578E0053988B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24FFFC2YSK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlieroth.TitanicSurvivalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TitanicSurvival.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TitanicSurvival";
+			};
+			name = Release;
+		};
+		CBF7DFC72C02578E0053988B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24FFFC2YSK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlieroth.TitanicSurvivalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TitanicSurvival;
+			};
+			name = Debug;
+		};
+		CBF7DFC82C02578E0053988B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24FFFC2YSK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlieroth.TitanicSurvivalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TitanicSurvival;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBF7DF962C02578D0053988B /* Build configuration list for PBXProject "TitanicSurvival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF7DFBE2C02578E0053988B /* Debug */,
+				CBF7DFBF2C02578E0053988B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF7DFC02C02578E0053988B /* Build configuration list for PBXNativeTarget "TitanicSurvival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF7DFC12C02578E0053988B /* Debug */,
+				CBF7DFC22C02578E0053988B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF7DFC32C02578E0053988B /* Build configuration list for PBXNativeTarget "TitanicSurvivalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF7DFC42C02578E0053988B /* Debug */,
+				CBF7DFC52C02578E0053988B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF7DFC62C02578E0053988B /* Build configuration list for PBXNativeTarget "TitanicSurvivalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF7DFC72C02578E0053988B /* Debug */,
+				CBF7DFC82C02578E0053988B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBF7DF932C02578D0053988B /* Project object */;
+}
