@@ -12,6 +12,6 @@ struct TitanicSurvivalApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-        }
+        }.windowResizability(.automatic)
     }
 }
